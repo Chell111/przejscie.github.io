@@ -146,7 +146,7 @@
   <div class="wrap">
     <header>
       <h1>NA KOGO ZAGŁOSUJESZ?</h1>
-      <p>Galeria Twoich zdjęć z krótkim opisem. Kliknij zdjęcie, żeby powiększyć.</p>
+      <p>Wybierz mądrze</p>
     </header>
 
     <!--
