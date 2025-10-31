@@ -1,107 +1,283 @@
+<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8" />
-  <title>Example: Link to another page</title>
- <h1>Wielka Trójka</h1>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Moja galeria zdjęć</title>
   <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .photo {
-            width: 200px;
-            background-color: #fff;
-            padding: 10px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .photo img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .description {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #333;
-        }
-    </style>
+    :root{
+      --bg:#f7f7f8;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0ea5a4;
+      --radius:12px;
+      --gap:1rem;
+      --max-width:1100px;
+    }
+
+    /* Page reset and layout */
+  *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial; background:var(--bg); color:#111}
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:1rem;}
+
+  header{
+      text-align:center;
+      padding:1.25rem 0 0.5rem;
+    }
+    header h1{margin:.2rem 0;font-size:clamp(1.25rem,3.5vw,1.9rem)}
+    header p{margin:0;color:var(--muted);font-size:0.95rem}
+
+    /* Gallery grid - mobile first */
+  .gallery{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:var(--gap);
+      margin-top:1rem;
+    }
+
+  figure.card{
+      margin:0;
+      background:var(--card);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow: 0 6px 18px rgba(12,12,15,0.06);
+      transition:transform .18s ease, box-shadow .18s ease;
+      display:flex;
+      flex-direction:column;
+      min-height:140px;
+    }
+    figure.card:hover{ transform:translateY(-6px); box-shadow:0 14px 30px rgba(12,12,15,0.10) }
+
+  .thumb{
+      width:100%;
+      display:block;
+      aspect-ratio: 16 / 10;
+      object-fit:cover;
+    }
+
+  figcaption{
+      padding:0.85rem 0.9rem 1rem;
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      gap:0.5rem;
+    }
+    figcaption h3{margin:0;font-size:1rem}
+    figcaption p{margin:0;color:var(--muted);font-size:0.92rem;line-height:1.3}
+
+  .meta{
+      margin-top:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:0.5rem;
+    }
+    .meta .btn{
+      background:transparent;
+      border:1px solid rgba(0,0,0,0.06);
+      color:var(--accent);
+      padding:0.35rem 0.55rem;
+      border-radius:8px;
+      font-weight:600;
+      font-size:0.9rem;
+      cursor:pointer;
+    }
+
+    /* Responsive breakpoints */
+  @media (min-width:600px){
+      .gallery{ grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width:1000px){
+      .gallery{ grid-template-columns: repeat(3, 1fr); }
+    }
+
+    /* Modal (image lightbox) */
+  .modal{
+      position:fixed;
+      inset:0;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      background:rgba(2,6,23,0.6);
+      z-index:9999;
+      padding:1rem;
+    }
+    .modal.open{ display:flex }
+    .modal .modal-inner{
+      max-width:1200px;
+      width:100%;
+      border-radius:10px;
+      overflow:hidden;
+      background:#111;
+      box-shadow:0 20px 60px rgba(2,6,23,0.6);
+    }
+    .modal img{
+      width:100%;
+      height:auto;
+      display:block;
+      max-height:80vh;
+      object-fit:contain;
+      background:#000;
+    }
+    .modal .caption{
+      padding:0.8rem 1rem;
+      color:#eee;
+      font-size:0.95rem;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:0.6rem;
+    }
+    .modal .close{
+      background:transparent;
+      border:0;
+      color:#ddd;
+      font-size:1.05rem;
+      cursor:pointer;
+    }
+
+    /* Small accessibility helpers */
+  a{color:var(--accent)}
+    @media (prefers-reduced-motion: reduce){
+      *{transition:none!important}
+    }
+  </style>
 </head>
 <body>
-    <h1>Wielka Trójka</h1>
-    <div class="gallery">
-        <div class="photo">
-            <img src="https://github.com/Chell111/Chell111.github.io/blob/main/image.jpg?raw=true" alt="Opis zdjęcia 1" />
-            <div class="description">Winstonek</div>
-        </div>
-        <div class="photo">
-            <img src="https://github.com/Chell111/Chell111.github.io/blob/main/Iwan%20w%20pude%C5%82ku.png?raw=true" alt="Opis zdjęcia 2" />
-            <div class="description">Ivanek</div>
-        </div>
-        <!-- Dodaj więcej zdjęć w ten sposób -->
-        <div class="photo">
-            <img src="https://github.com/Chell111/Chell111.github.io/blob/main/Maciej.jpg?raw=true" alt="Opis zdjęcia 3" />
-            <div class="description">Maciek</div>
-        </div>
+  <div class="wrap">
+    <header>
+      <h1>Moja galeria</h1>
+      <p>Galeria Twoich zdjęć z krótkim opisem. Kliknij zdjęcie, żeby powiększyć.</p>
+    </header>
+
+    <!--
+      Replace the images below with your own files.
+      Put your images in an "images/" folder next to this HTML file (or adjust the paths).
+      For each <figure>:
+        - Update src and data-full attributes to point to the image file (full-size in data-full optional).
+        - Update alt text and captions.
+      The img elements use loading="lazy" for better performance on mobile.
+    -->
+  <main class="gallery" aria-live="polite">
+      <figure class="card">
+        <img class="thumb"
+             src="images/photo1-small.jpg"
+             srcset="images/photo1-small.jpg 600w, images/photo1-medium.jpg 1000w, images/photo1-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 1"
+             loading="lazy"
+             data-full="images/photo1-large.jpg">
+        <figcaption>
+          <h3>Tytuł zdjęcia 1</h3>
+          <p>Krótki opis zdjęcia 1 — miejsce, data lub kontekst.</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">2025</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+  <figure class="card">
+        <img class="thumb"
+             src="images/photo2-small.jpg"
+             srcset="images/photo2-small.jpg 600w, images/photo2-medium.jpg 1000w, images/photo2-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 2"
+             loading="lazy"
+             data-full="images/photo2-large.jpg">
+        <figcaption>
+          <h3>Tytuł zdjęcia 2</h3>
+          <p>Krótki opis zdjęcia 2 — co przedstawia i dlaczego ważne.</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">Katowice</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+  <figure class="card">
+        <img class="thumb"
+             src="images/photo3-small.jpg"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Tytuł zdjęcia 3</h3>
+          <p>Krótki opis zdjęcia 3 — dodatkowe informacje.</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">Lato</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Add more <figure class="card"> blocks as needed -->
+    </main>
+  </div>
+
+  <!-- Modal / Lightbox -->
+  <div class="modal" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-inner" role="document">
+      <img id="lightbox-img" src="" alt="">
+      <div class="caption">
+        <div id="lightbox-caption" style="flex:1;"></div>
+        <button id="lightbox-close" class="close" aria-label="Zamknij">✕</button>
+      </div>
     </div>
+  </div>
 
-  <!-- Link that opens page2.html in the same tab -->
-  <a href="page2.html">Przejdź do natępnej strony :3 (same tab)</a>
+  <script>
+    // Simple lightbox behavior
+    (function(){
+      const openBtns = document.querySelectorAll('.open-btn');
+      const lightbox = document.getElementById('lightbox');
+      const lbImg = document.getElementById('lightbox-img');
+      const lbCaption = document.getElementById('lightbox-caption');
+      const lbClose = document.getElementById('lightbox-close');
 
-  
-  </body>
-</html>
+      function openFromElement(el){
+        // el is the figure.card or a descendant button
+        const fig = el.closest('figure.card');
+        if(!fig) return;
+        const img = fig.querySelector('img');
+        const full = img.dataset.full || img.src;
+        const alt = img.alt || '';
+        const title = fig.querySelector('h3')?.textContent || '';
+        const desc = fig.querySelector('p')?.textContent || '';
+        lbImg.src = full;
+        lbImg.alt = alt;
+        lbCaption.textContent = title ? (title + (desc ? ' — ' + desc : '')) : desc || alt;
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden','false');
+        // prevent scrolling behind on mobile
+        document.documentElement.style.overflow = 'hidden';
+      }
 
-<html lang="pl">
-<head>
-  <meta charset="utf-8" />
-  <title>Nie wiem jaki tytuł dać</title>
- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .photo {
-            width: 200px;
-            background-color: #fff;
-            padding: 10px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .photo img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .description {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #333;
-        }
-    </style>
-</head>
-<body>
-  <h1>Nie wiem jaki tytuł dać</h1>
- <h1>Nie wiem jaki tytuł dać</h1>
-    <div class="gallery">
-        <div class="photo">
-            <img src="https://github.com/Chell111/pies.github.io/blob/main/piesek%20oli.jpg?raw=true" alt="Opis zdjęcia 1" />
-            <div class="description">Imienia nie pamiętam
-        </div>
-      
-    </div>
-  <p><a href="index.html">Back to Home</a></p>
+      openBtns.forEach(btn=>{
+        btn.addEventListener('click', e => openFromElement(e.currentTarget));
+      });
+
+      // Allow clicking the image directly as well
+      document.querySelectorAll('.thumb').forEach(t=>{
+        t.addEventListener('click', e => openFromElement(e.currentTarget));
+      });
+
+      function closeLB(){
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden','true');
+        lbImg.src = '';
+        lbImg.alt = '';
+        document.documentElement.style.overflow = '';
+      }
+
+      lbClose.addEventListener('click', closeLB);
+      lightbox.addEventListener('click', (e)=>{
+        if(e.target === lightbox) closeLB();
+      });
+      document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeLB(); });
+    })();
+  </script>
 </body>
 </html>
