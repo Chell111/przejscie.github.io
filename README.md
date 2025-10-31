@@ -161,12 +161,12 @@
   <main class="gallery" aria-live="polite">
       <figure class="card">
         <img class="thumb"
-             src="images/photo1-small.jpg"
-             srcset="images/photo1-small.jpg 600w, images/photo1-medium.jpg 1000w, images/photo1-large.jpg 1600w"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Krótki opis zdjęcia 1"
+             alt="Winston - stinken die Katze"
              loading="lazy"
-             data-full="images/photo1-large.jpg">
+             data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true">
         <figcaption>
           <h3>Tytuł zdjęcia 1</h3>
           <p>Krótki opis zdjęcia 1 — miejsce, data lub kontekst.</p>
@@ -179,12 +179,12 @@
 
   <figure class="card">
         <img class="thumb"
-             src="images/photo2-small.jpg"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true"
              srcset="images/photo2-small.jpg 600w, images/photo2-medium.jpg 1000w, images/photo2-large.jpg 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Krótki opis zdjęcia 2"
+             alt="Ivanek"
              loading="lazy"
-             data-full="images/photo2-large.jpg">
+             data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true">
         <figcaption>
           <h3>Tytuł zdjęcia 2</h3>
           <p>Krótki opis zdjęcia 2 — co przedstawia i dlaczego ważne.</p>
@@ -197,10 +197,10 @@
 
   <figure class="card">
         <img class="thumb"
-             src="images/photo3-small.jpg"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
              srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Krótki opis zdjęcia 3"
+             alt="Maciuś"
              loading="lazy"
              data-full="images/photo3-large.jpg">
         <figcaption>
