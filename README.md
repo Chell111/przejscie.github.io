@@ -167,10 +167,10 @@
              loading="lazy"
              data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true">
         <figcaption>
-          <h3>Winston 11/12 lat</h3>
-          <p>Wielki tchórz, hater plebsu</p>
+          <h3>Winston</h3>
+          <p>11/12 lat. Wielki tchórz, hater plebsu</p>
           <div class="meta">
-            <span style="color:var(--muted);font-size:.9rem">4B</span>
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
           </div>
         </figcaption>
@@ -185,10 +185,10 @@
              loading="lazy"
              data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true">
         <figcaption>
-          <h3>Ivan 6 lat</h3>
-          <p>Sprzedał by matkę za 3 krewetki</p>
+          <h3>Ivan 6</h3>
+          <p>6 lat. Sprzedał by matkę za 3 krewetki</p>
           <div class="meta">
-            <span style="color:var(--muted);font-size:.9rem">4B</span>
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
           </div>
         </figcaption>
@@ -201,10 +201,10 @@
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Maciej Abraham Abdul III</h3>
+          <p>3 lata. Nie przyznaje się do syna</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -214,15 +214,15 @@
 
 <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Burbon</h3>
+          <p>wiek 8 lat. Groźne spojrzenie ale bardzo kochający</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -232,15 +232,15 @@
       
 <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Charli.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Charli.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Charli.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Charli.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Charli.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Charli</h3>
+          <p>6 lat. Bardzo przywiązana do matki</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -250,15 +250,15 @@
 
 <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Gibi</h3>
+          <p>1,5 lat. Głodompr, szcza na zasłony</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -268,15 +268,15 @@
 
 <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Loki.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Loki.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Loki.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Loki.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Loki.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Loki</h3>
+          <p>9,5 lat. Kocha matkę i głaskanie</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -286,15 +286,15 @@
 
   <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Rysiu.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Rysiu.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Rysiu.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Rysiu.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Rysiu.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Rysiu</h3>
+          <p>5 lat. Znaleziony na ulicy, w nowym domu pokochał życie na nowo</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
@@ -304,15 +304,15 @@
 
 <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="images/photo3-large.jpg">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true">
         <figcaption>
-          <h3>Macjie Abraham Abdul III 3 lata</h3>
-          <p>Nie przyznaje się do syna</p>
+          <h3>Fifek</h3>
+          <p>?? lat. Greedy</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
