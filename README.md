@@ -6,9 +6,9 @@
   <style>
     :root{
       --bg:#e8b97c;
-      --card:#ffc0cb;
-      --muted:#09fbff;
-      --accent:#50ff3a;
+      --card:#c19564;
+      --muted:#111;
+      --accent:#111;
       --radius:12px;
       --gap:1rem;
       --max-width:1100px;
