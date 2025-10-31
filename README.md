@@ -196,12 +196,12 @@
 
   <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/Maciu%C5%9B.png?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/Maciu%C5%9B.png?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Maciu%C5%9B.png?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/Maciu%C5%9B.png?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
-             data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Maciu%C5%9B.png?raw=true">
         <figcaption>
           <h3>Maciej Abraham Abdul III</h3>
           <p>3 lata. Nie przyznaje się do syna</p>
