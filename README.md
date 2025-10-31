@@ -160,12 +160,12 @@
   <main class="gallery" aria-live="polite">
       <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true"
-             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 1600w"
+             src="https://github.com/Chell111/przejscie.github.io/blob/main/images/IMG_5440.JPG?raw=true"
+             srcset="https://github.com/Chell111/przejscie.github.io/blob/main/images/IMG_5440.JPG?raw=true 600w, https://github.com/Chell111/przejscie.github.io/blob/main/images/IMG_5440.JPG?raw=true 1000w, https://github.com/Chell111/przejscie.github.io/blob/main/images/IMG_5440.JPG?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 1"
              loading="lazy"
-             data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true">
+             data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/IMG_5440.JPG?raw=true">
         <figcaption>
           <h3>Winston</h3>
           <p>11/12 lat. Wielki tchórz, hater plebsu</p>
