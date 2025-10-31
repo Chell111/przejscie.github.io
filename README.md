@@ -179,7 +179,7 @@
   <figure class="card">
         <img class="thumb"
              src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true"
-             srcset="images/photo2-small.jpg 600w, images/photo2-medium.jpg 1000w, images/photo2-large.jpg 1600w"
+             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 2"
              loading="lazy"
@@ -197,7 +197,7 @@
   <figure class="card">
         <img class="thumb"
              src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
              alt="Krótki opis zdjęcia 3"
              loading="lazy"
