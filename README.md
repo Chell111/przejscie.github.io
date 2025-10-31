@@ -1,15 +1,14 @@
-<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Moja galeria zdjęć</title>
+  <title>Zdjęcia konkursowe</title>
   <style>
     :root{
-      --bg:#f7f7f8;
-      --card:#ffffff;
-      --muted:#6b7280;
-      --accent:#0ea5a4;
+      --bg:#e8b97c;
+      --card:#ffc0cb;
+      --muted:#09fbff;
+      --accent:#50ff3a;
       --radius:12px;
       --gap:1rem;
       --max-width:1100px;
