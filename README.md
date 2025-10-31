@@ -145,7 +145,7 @@
 <body>
   <div class="wrap">
     <header>
-      <h1>Moja galeria</h1>
+      <h1>NA KOGO ZAGŁOSUJESZ?</h1>
       <p>Galeria Twoich zdjęć z krótkim opisem. Kliknij zdjęcie, żeby powiększyć.</p>
     </header>
 
@@ -160,17 +160,17 @@
   <main class="gallery" aria-live="polite">
       <figure class="card">
         <img class="thumb"
-             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
-             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true 1600w"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true"
+             srcset="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 600w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 1000w, https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Winston - stinken die Katze"
+             alt="Krótki opis zdjęcia 1"
              loading="lazy"
              data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/image.jpg?raw=true">
         <figcaption>
-          <h3>Tytuł zdjęcia 1</h3>
-          <p>Krótki opis zdjęcia 1 — miejsce, data lub kontekst.</p>
+          <h3>Winston 11/12 lat</h3>
+          <p>Wielki tchórz, hater plebsu</p>
           <div class="meta">
-            <span style="color:var(--muted);font-size:.9rem">2025</span>
+            <span style="color:var(--muted);font-size:.9rem">4B</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
           </div>
         </figcaption>
@@ -181,14 +181,14 @@
              src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true"
              srcset="images/photo2-small.jpg 600w, images/photo2-medium.jpg 1000w, images/photo2-large.jpg 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Ivanek"
+             alt="Krótki opis zdjęcia 2"
              loading="lazy"
              data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true">
         <figcaption>
-          <h3>Tytuł zdjęcia 2</h3>
-          <p>Krótki opis zdjęcia 2 — co przedstawia i dlaczego ważne.</p>
+          <h3>Ivan 6 lat</h3>
+          <p>Sprzedał by matkę za 3 krewetki</p>
           <div class="meta">
-            <span style="color:var(--muted);font-size:.9rem">Katowice</span>
+            <span style="color:var(--muted);font-size:.9rem">4B</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
           </div>
         </figcaption>
@@ -199,19 +199,127 @@
              src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
              srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
              sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
-             alt="Maciuś"
+             alt="Krótki opis zdjęcia 3"
              loading="lazy"
              data-full="images/photo3-large.jpg">
         <figcaption>
-          <h3>Tytuł zdjęcia 3</h3>
-          <p>Krótki opis zdjęcia 3 — dodatkowe informacje.</p>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
           <div class="meta">
-            <span style="color:var(--muted);font-size:.9rem">Lato</span>
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
           </div>
         </figcaption>
       </figure>
 
+<figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+      
+<figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+<figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+<figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+  <figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+
+<figure class="card">
+        <img class="thumb"
+             src="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Maciej.jpg?raw=true"
+             srcset="images/photo3-small.jpg 600w, images/photo3-medium.jpg 1000w, images/photo3-large.jpg 1600w"
+             sizes="(max-width:599px) 100vw, (max-width:999px) 48vw, 32vw"
+             alt="Krótki opis zdjęcia 3"
+             loading="lazy"
+             data-full="images/photo3-large.jpg">
+        <figcaption>
+          <h3>Macjie Abraham Abdul III 3 lata</h3>
+          <p>Nie przyznaje się do syna</p>
+          <div class="meta">
+            <span style="color:var(--muted);font-size:.9rem">4b</span>
+            <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
+          </div>
+        </figcaption>
+      </figure>
+      
       <!-- Add more <figure class="card"> blocks as needed -->
     </main>
   </div>
