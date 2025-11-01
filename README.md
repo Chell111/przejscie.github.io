@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -35,7 +35,7 @@
     }
 
     /* Content styling for both examples */
-    .content {
+  .content {
       position: relative;
       z-index: 1;
       max-width: 900px;
@@ -54,7 +54,7 @@
 </head>
 <body>
 
-  <!-- Example B: Use a full-screen <img> with object-fit (uncomment to test) -->
+  
   
   <section class="img" aria-label="Background image using &lt;img&gt;">
     <img class="bg-img" src="images/Strona główna.png" alt="" aria-hidden="true" />
@@ -63,7 +63,7 @@
       
     </div>
   </section>
-  -->
+  
 
 </body>
 </html>
