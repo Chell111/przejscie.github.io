@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8" />
@@ -11,8 +10,8 @@
   
   .bg-css {
       min-height: 100%;
-    Replace with your image path or full URL
-    background-image: url"https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true";
+   
+  background-image: url"images/Strona główna.png";
       background-size: cover;          
       background-position: center;    
       background-repeat: no-repeat;
@@ -28,7 +27,7 @@
     }
 
     /* Option B: full-screen <img> with object-fit */
-    .bg-img-wrap {
+  .bg-img-wrap {
       position: relative;
       min-height: 100vh;
       overflow: hidden;
@@ -45,7 +44,7 @@
     }
 
     /* Optional dark overlay for readability */
-    .overlay {
+  .overlay {
       position: absolute;
       inset: 0;
       background: rgba(0,0,0,0.35);
@@ -73,22 +72,21 @@
 <body>
 
   <!-- Example A: apply background via CSS on the body -->
-  <main class="bg-css" aria-label="https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true">
+  <main class="bg-css" aria-label="images/Strona główna.png">
     <div class="content" role="article">
     </div>
   </main>
 
   <!-- Example B: Use a full-screen <img> with object-fit (uncomment to test) -->
-  <!--
   <section class="bg-img-wrap" aria-label="Background image using &lt;img&gt;">
-    <img class="bg-img" src="your-photo.jpg" alt="" aria-hidden="true" />
+    <img class="bg-img" src="images/Strona główna.png" alt="" aria-hidden="true" />
     <div class="overlay" aria-hidden="true"></div>
     <div class="content">
       <h1>Background via &lt;img&gt;</h1>
       <p>This uses an absolutely positioned &lt;img&gt; with object-fit: cover. The alt is empty because it's decorative; if it's meaningful, provide descriptive alt text instead.</p>
     </div>
   </section>
-  -->
+  
 
 </body>
 </html>
