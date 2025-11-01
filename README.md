@@ -27,7 +27,7 @@
     }
 
     /* Optional dark overlay for readability */
-    .overlay {
+  .overlay {
       position: absolute;
       inset: 0;
       background: rgba(0,0,0,0.35);
@@ -43,11 +43,11 @@
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
 
-    h1 { margin: 0 0 0.5rem 0; font-size: clamp(1.5rem, 3vw, 2.4rem); }
+  h1 { margin: 0 0 0.5rem 0; font-size: clamp(1.5rem, 3vw, 2.4rem); }
     p  { margin: 0; font-size: clamp(1rem, 2vw, 1.1rem); }
 
     /* Small-screen adjustments */
-    @media (max-width: 520px) {
+  @media (max-width: 520px) {
       .content { margin: 1rem; }
     }
   </style>
