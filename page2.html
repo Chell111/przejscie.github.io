@@ -386,6 +386,36 @@
       document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeLB(); });
     })();
   </script>
+      /* Styl dla linku na dole */
+  .next-link {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* Efekt hover dla linku */
+  .next-link:hover {
+      background: rgba(255, 255, 255, 1);
+      color: #000;
+    }
+
+    /* Dla urządzeń mobilnych można dodać dodatkowe media query, jeśli potrzebujesz */
+  @media (max-width: 600px) {
+      .next-link {
+        font-size: 1em;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Link do następnej strony na dole -->
+  <a href="https://www.google.com/imgres?q=ankieta&imgurl=https%3A%2F%2Frops.pomorskie.eu%2Fwp-content%2Fuploads%2F2024%2F08%2FPink-and-Blue-Pastel-Isometric-File-Folder-Label.jpg&imgrefurl=https%3A%2F%2Frops.pomorskie.eu%2F2024%2F08%2F27%2Fankieta%2F&docid=4hJZMfgaZUAneM&tbnid=4LmAfWlhQvBKVM&vet=12ahUKEwiSrPejktKQAxWRRPEDHU4NFLkQM3oECDYQAA..i&w=1800&h=1200&hcb=2&ved=2ahUKEwiSrPejktKQAxWRRPEDHU4NFLkQM3oECDYQAA" class="next-link">link do ankiety</a>
 </body>
 </html>
 
