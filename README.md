@@ -312,7 +312,7 @@
              data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/piesek%20oli.jpg?raw=true">
         <figcaption>
           <h3>Fifek</h3>
-          <p>?? lat. Greedy</p>
+          <p>8 lat. Greedy</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
