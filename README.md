@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
@@ -53,6 +52,6 @@
 </head>
 <body>
   <!-- Link do następnej strony na dole -->
-  <a href="page2.html" class="next-link"></a>
+  <a href="page2.html" class="next-link">następna strona</a>
 </body>
 </html>
