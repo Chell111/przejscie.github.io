@@ -14,7 +14,7 @@
     /* Ustawienia dla body, aby tło było pełne i responsywne */
   body {
       height: 100vh;
-      background-image: url('images/Stronka.jpg');
+      background-image: url('images/ChybaTerazDobrze.jpg');
       background-size: cover;
       background-position: center;
       display: flex;
@@ -52,6 +52,6 @@
 </head>
 <body>
   <!-- Link do następnej strony na dole -->
-  <a href="page2.html" class="next-link">następna strona</a>
+  <a href="page2.html" class="next-link">nasze zwierzaki</a>
 </body>
 </html>
