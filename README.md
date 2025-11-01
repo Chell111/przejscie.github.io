@@ -258,7 +258,7 @@
              data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Gibi.jpg?raw=true">
         <figcaption>
           <h3>Gibi</h3>
-          <p>1,5 lat. Głodompr, szcza na zasłony</p>
+          <p>1,5 lat. Głodomor, szcza na zasłony</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
