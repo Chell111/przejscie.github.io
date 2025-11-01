@@ -222,7 +222,7 @@
              data-full="https://github.com/Chell111/przejscie.github.io/blob/main/images/Burbon.jpg?raw=true">
         <figcaption>
           <h3>Burbon</h3>
-          <p>wiek 8 lat. Groźne spojrzenie ale bardzo kochający</p>
+          <p>8 lat. Groźne spojrzenie ale bardzo kochający</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
             <button class="btn open-btn" type="button" aria-label="Powiększ zdjęcie">Powiększ</button>
