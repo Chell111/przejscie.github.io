@@ -12,7 +12,7 @@
   .bg-css {
       min-height: 100%;
     Replace with your image path or full URL
-    background-image: url("https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true");
+    background-image: url"https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true";
       background-size: cover;          
       background-position: center;    
       background-repeat: no-repeat;
