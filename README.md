@@ -185,7 +185,7 @@
              loading="lazy"
              data-full="https://github.com/Chell111/przejsciestron.github.io/blob/main/images/Iwan%20w%20pude%C5%82ku.png?raw=true">
         <figcaption>
-          <h3>Ivan 6</h3>
+          <h3>Ivan</h3>
           <p>6 lat. Sprzedał by matkę za 3 krewetki</p>
           <div class="meta">
             <span style="color:var(--muted);font-size:.9rem">4b</span>
