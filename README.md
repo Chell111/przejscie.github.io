@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -8,17 +8,17 @@
     /* Reset and ensure page fills viewport */
     html, body { height: 100%; margin: 0; }
 
-    /* Option A: CSS background on the <body> */
-    .bg-css {
+  
+  .bg-css {
       min-height: 100%;
-      /* Replace with your image path or full URL */
-      background-image: url("your-photo.jpg");
-      background-size: cover;          /* cover the whole area */
-      background-position: center;     /* center the image */
+    Replace with your image path or full URL
+    background-image: url("https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true");
+      background-size: cover;          
+      background-position: center;    
       background-repeat: no-repeat;
-      background-attachment: fixed;    /* optional: fixed during scroll */
-      /* fallback background color while image loads */
-      background-color: #222;
+      background-attachment: fixed;    
+      
+  background-color: #222;
       color: white;
       display: flex;
       align-items: center;
@@ -53,7 +53,7 @@
     }
 
     /* Content styling for both examples */
-    .content {
+  .content {
       position: relative;
       z-index: 1;
       max-width: 900px;
@@ -61,11 +61,11 @@
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
 
-    h1 { margin: 0 0 0.5rem 0; font-size: clamp(1.5rem, 3vw, 2.4rem); }
+  h1 { margin: 0 0 0.5rem 0; font-size: clamp(1.5rem, 3vw, 2.4rem); }
     p  { margin: 0; font-size: clamp(1rem, 2vw, 1.1rem); }
 
     /* Small-screen adjustments */
-    @media (max-width: 520px) {
+  @media (max-width: 520px) {
       .content { margin: 1rem; }
     }
   </style>
@@ -73,10 +73,8 @@
 <body>
 
   <!-- Example A: apply background via CSS on the body -->
-  <main class="bg-css" aria-label="Background image using CSS">
+  <main class="bg-css" aria-label="https://github.com/Chell111/przejscie.github.io/blob/main/images/Strona%20g%C5%82%C3%B3wna.png?raw=true">
     <div class="content" role="article">
-      <h1>Background via CSS</h1>
-      <p>This uses background-image on the page with background-size: cover. Replace "your-photo.jpg" in the CSS with your image.</p>
     </div>
   </main>
 
