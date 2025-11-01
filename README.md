@@ -14,7 +14,7 @@
     /* Ustawienia dla body, aby tło było pełne i responsywne */
   body {
       height: 100vh;
-      background-image: url('images/Strona główna.png');
+      background-image: url('images/Stronka.jpg');
       background-size: cover;
       background-position: center;
       display: flex;
